@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="O Aplikaci"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/Popisek"
+        android:text="Vytvořeno Vladimírem Soukupem na projekt MVA"
+        android:layout_width="match_parent"
+        android:background="#FFFFFF"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/Popisek2"
+        android:text="Tato aplikace má možnost se časem rozšířit o další sekce a vychytat ostatní detaily a nedokonalosti, které tato aplkace přináši."
+        android:layout_width="match_parent"
+        android:background="#FFFFFF"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/titleTextView2"
+        android:textAlignment="center"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Co zlepšit"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+    <TextView
+        android:id="@+id/Popisek3"
+        android:text="1. Více sekcí -> to záleží na tématu a databázi, se kterou by se moje práce s databází musela zlepšit"
+        android:layout_width="match_parent"
+        android:background="#FFFFFF"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/Popisek4"
+        android:background="#FFFFFF"
+        android:text="2. Kolonka zvlášť pro jméno -> Bohužel mi to textView nejde sloučit a zobrazit dva texty, možná chyba na straně mého vyřešení databáze"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/Popisek5"
+        android:layout_width="match_parent"
+        android:background="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:text="2. Editace a mazání (admin) -> Tato část byla v jedné situaci vyřešena, po upravení kódu a následném navrácení však již tento kód nefungoval" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Zpět"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#3395D6"/>
+
+</LinearLayout>
